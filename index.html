@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aakash - Front-End Developer</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- performance optimization on websites --> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- used to improve your website's loading speed.  -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"> <!-- used to load a custom font from the Google Fonts service for use on a website. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- used to add the Font Awesome icon library to a webpage.-->
+    <link rel="stylesheet" href="Aakash-Portfolio.css">
+
+    
+</head>
+<body class="antialiased">
+
+    <div class="cursor-outline"></div>
+    <div class="cursor-dot"></div>
+
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <header id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#home" class="header-logo">Aakash-Portfolio</a>
+                <nav class="desktop-nav">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+                <button id="mobile-menu-button">
+                    <span class="sr-only">Open main menu</span>
+                    <i class="fas fa-bars fa-lg"></i>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden">
+            <div style="padding: 0.5rem 0.75rem 0.75rem;">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="home">
+                <div id="particles-js"></div>
+                <div class="home-grid">
+                     <div class="home-image-container">
+                        <div data-tilt class="home-image-wrapper">
+                            <img src="Aakash_image.jpg" alt="Aakash" onerror="this.onerror=null;this.src='https://placehold.co/320x320/e2e8f0/1e293b?text=Aakash';">
+                        </div>
+                    </div>
+                    <div class="home-text">
+                        <h1>Hi, I'm Aakash</h1>
+                        <h2>A <span id="typed-text"></span></h2>
+                        <p>I'm a passionate and motivated web development enthusiast ready to build amazing things for the web.</p>
+                        <div class="home-actions">
+                            <a href="Aakash_Resume.pdf" download class="resume-btn">
+                                Download Resume <i class="fas fa-download" style="margin-left: 0.5rem;"></i>
+                            </a>
+                            <div class="social-links">
+                                <a href="https://github.com/Aakash-chaudhary-1" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://linkedin.com/in/aakash-aakash-12504b31a" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="mailto:akashchaudhary1064@gmail.com"><i class="fas fa-envelope"></i></a>
+                                <a href="tel:+919305740547"><i class="fas fa-phone"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </section>
+
+            <section id="about" class="reveal">
+                <h2 class="section-heading">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-image-container">
+                        <div data-tilt class="about-image-wrapper">
+                             <img src="Aakash_image.jpg" alt="Aakash" onerror="this.onerror=null;this.src='https://placehold.co/288x288/e2e8f0/1e293b?text=Aakash';">
+                        </div>
+                    </div>
+                    <div class="about-content">
+                        <p>Front-End Developer skilled in HTML, CSS, JavaScript, React, and MySQL with hands-on experience developing responsive web applications. Experienced in creating user-focused interfaces, improving performance, and applying strong analytical and teamwork skills to deliver efficient front-end solutions.</p>
+                        <div class="education-card">
+                            <h3>Education</h3>
+                            <div class="education-timeline">
+                                <div>
+                                    <p class="degree">B.Tech in Computer Science and Engineering</p>
+                                    <p class="university">Integral University, Lucknow | 2021-2025</p>
+                                    <p class="score">CGPA: 7.9/10</p>
+                                </div>
+                                <div>
+                                    <p class="degree">Intermediate</p>
+                                    <p class="university">Siddharth Public School, Siddharth Nagar | 2019-2021</p>
+                                    <p class="score">Score: 73.33%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="reveal">
+                <h2 class="section-heading">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div data-tilt class="skill-card"> <i class="fab fa-html5"></i><h3>HTML</h3> </div>
+                    <div data-tilt class="skill-card"> <i class="fab fa-css3-alt"></i><h3>CSS</h3> </div>
+                    <div data-tilt class="skill-card"> <i class="fab fa-js-square"></i><h3>JavaScript</h3> </div>
+                    <div data-tilt class="skill-card"> <i class="fab fa-react"></i><h3>React</h3> </div>
+                    <div data-tilt class="skill-card"> <i class="fab fa-java"></i><h3>Java</h3> </div>
+                    <div data-tilt class="skill-card"> <i class="fab fa-bootstrap"></i><h3>Bootstrap</h3> </div>
+                    <div data-tilt class="skill-card"> <i class="fas fa-database"></i><h3>MySQL</h3> </div>
+                </div>
+            </section>
+            
+            <section id="internship" class="reveal">
+                <h2 class="section-heading">Internship Experience</h2>
+                <div class="internship-container">
+                    <div class="internship-card">
+                        <div class="internship-card-dot"></div>
+                        <h3>Web Development Intern</h3>
+                        <p class="company">Internshala (Remote)</p>
+                        <p class="date">July 2024 - September 2024</p>
+                        <p class="description">Gained hands-on experience in front-end development, working with modern web technologies and contributing to real-world projects in a remote team environment.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="reveal">
+                <h2 class="section-heading">My Projects</h2>
+                <div class="projects-grid">
+                    <div data-tilt class="project-card">
+                        <div class="project-content">
+                            <h3>Amazon Clone</h3>
+                            <p>A static e-commerce website layout demonstrating proficiency in HTML, CSS and JS.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JS</span>
+                            </div>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://aakash-chaudhary-1.github.io/Amazon-Clone/"><i class="fas fa-link" style="margin-right: 0.5rem;"></i>Live Demo</a>
+                            <a href="https://github.com/Aakash-chaudhary-1/Amazon-Clone" target="_blank"><i class="fab fa-github" style="margin-right: 0.5rem;"></i>Source Code</a>
+                        </div>
+                    </div>
+                    <div data-tilt class="project-card">
+                        <div class="project-content">
+                            <h3>Tic Tac Toe</h3>
+                            <p>An interactive web-based game with a focus on user experience and game logic.</p>
+                             <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JS</span>
+                            </div>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://11-tic-tac-toe.netlify.app/"><i class="fas fa-link" style="margin-right: 0.5rem;"></i>Live Demo</a>
+                            <a href="https://github.com/Aakash-chaudhary-1/TicTacToe" target="_blank"><i class="fab fa-github" style="margin-right: 0.5rem;"></i>Source Code</a>
+                        </div>
+                    </div>
+                    <div data-tilt class="project-card">
+                        <div class="project-content">
+                            <h3>Rock Paper Scissors</h3>
+                            <p>A logic-based browser game showcasing foundational programming skills.</p>
+                             <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JS</span>
+                            </div>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://1-rock-paper-scissors.netlify.app/"><i class="fas fa-link" style="margin-right: 0.5rem;"></i>Live Demo</a>
+                            <a href="https://github.com/Aakash-chaudhary-1/Rock-Paper-Scissors" target="_blank"><i class="fab fa-github" style="margin-right: 0.5rem;"></i>Source Code</a>
+                        </div>
+                    </div>
+                    <div data-tilt class="project-card">
+                        <div class="project-content">
+                            <h3>Pong Game</h3>
+                            <p>A static pong game website layout demonstrating proficiency in HTML, CSS and JS.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JS</span>
+                            </div>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://aakash-chaudhary-1.github.io/Pong-Game/"><i class="fas fa-link" style="margin-right: 0.5rem;"></i>Live Demo</a>
+                            <a href="https://github.com/Aakash-chaudhary-1/Pong-Game" target="_blank"><i class="fab fa-github" style="margin-right: 0.5rem;"></i>Source Code</a>
+                        </div>
+                    </div>
+                    <div data-tilt class="project-card">
+                        <div class="project-content">
+                            <h3>To-Do List</h3>
+                            <p>A static  to-do List website layout demonstrating proficiency in HTML, CSS and JS.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JS</span>
+                            </div>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://aakash-chaudhary-1.github.io/To-Do-List/"><i class="fas fa-link" style="margin-right: 0.5rem;"></i>Live Demo</a>
+                            <a href="https://github.com/Aakash-chaudhary-1/To-Do-List" target="_blank"><i class="fab fa-github" style="margin-right: 0.5rem;"></i>Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="reveal" data-tilt >
+                <h2 class="section-heading" style="margin-bottom: 1rem;">Get In Touch</h2>
+                <p class="contact-intro">I'm currently looking for new opportunities. Feel free to reach out to me!</p>
+                <div class="contact-content" data-tilt>
+                 <div class="contact-socials" data-tilt>
+                    <a href="https://github.com/Aakash-chaudhary-1" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/aakash-aakash-12504b31a" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:akashchaudhary1064@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+               <!-- <p>&copy; 2025 Aakash All Rights Reserved.</p> -->
+                <p>Aakash Portfolio</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top-btn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script><!--Typing Effect  Typed.js is a popular JavaScript library used to create animated typing effects. It makes text appear on the screen as if it's being typed out in real-time. -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- particles.js   Particle.js initialization is the process of setting up and activating the particles.js JavaScript library on a webpage to create interactive, animated particle backgrounds. It's a popular, lightweight library used to make websites look more dynamic and engaging-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script><!-- Vanilla-Tilt  Vanilla-Tilt.js, a lightweight JavaScript library that adds a smooth 3D tilt effect to elements on a webpage-->
+    
+    <script src="Aakash-Portfolio.js"></script>
+
+</body>
+</html>
